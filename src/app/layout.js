@@ -1,5 +1,6 @@
 import "./globals.css";
-import {Providers} from "./providers";
+import {Providers} from "@/config/providers";
+import {poppins} from "@/config/fonts";
 import {siteConfig} from "@/config/site";
 
 export const metadata = {
@@ -16,7 +17,7 @@ export const metadata = {
 export default function RootLayout({children}) {
     return (
         <html lang="en" suppressHydrationWarning>
-        <body>
+        <body className={poppins.className}>
         <Providers>
             {children}
         </Providers>

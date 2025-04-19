@@ -1,8 +1,7 @@
 "use client";
 
 import {useTheme} from "next-themes";
-import {MoonIcon, SunIcon} from "@/components/icons";
-import {Button} from "@heroui/button";
+import {RiMoonFill, RiSunFill} from "react-icons/ri";
 
 export const ThemeSwitcher = () => {
     const {theme, setTheme} = useTheme();
@@ -12,16 +11,8 @@ export const ThemeSwitcher = () => {
     };
 
     return (
-        <Button onClick={toggleTheme} isIconOnly aria-label="Theme Switcher" color="secondary" variant="faded"
-                size="lg">
-            {theme === "light" ? (
-                <SunIcon className="text-yellow-600"/>
-            ) : (
-                <MoonIcon className="text-gray-300"/>
-            )}
-        </Button>
-
-
-    )
-        ;
+        <button onClick={toggleTheme} aria-label="Theme Switcher" className="md:text-xl">
+            {theme === "light" ? <RiSunFill/> : <RiMoonFill/>}
+        </button>
+    );
 };

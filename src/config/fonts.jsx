@@ -1,11 +1,13 @@
-import {Fira_Code as FontMono, Inter as FontSans} from "next/font/google";
+import {Atomic_Age, Hind_Siliguri, Poppins} from 'next/font/google'
 
-export const fontSans = FontSans({
-    subsets: ["latin"],
-    variable: "--font-sans",
-});
+export const atomic_age = Atomic_Age({
+    subsets: ['latin'],
+    display: 'swap',
+    weight: '400'
+})
 
-export const fontMono = FontMono({
-    subsets: ["latin"],
-    variable: "--font-mono",
-});
+export const poppins = Poppins({
+    subsets: ['latin'],
+    display: 'swap',
+    weight: ['400', '500', '600', '700'],
+})
