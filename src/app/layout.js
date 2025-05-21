@@ -1,5 +1,5 @@
 import "./globals.css";
-import {Providers} from "@/config/providers";
+import {Providers} from "@/app/providers";
 import {poppins} from "@/config/fonts";
 import {siteConfig} from "@/config/site";
 
