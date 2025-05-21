@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 HeroUI v2.7.8 + TailwindCSS v3.4.17 Template
 
-## Getting Started
+A modern, fully customizable **HeroUI** template built with [**Next.js 15.3.2**](https://nextjs.org/docs/getting-started) and powered by [**TailwindCSS v3.4.17**](https://v3.tailwindcss.com/). This version uses the **App Router** architecture for better routing flexibility and performance.
 
-First, run the development server:
+> 🧰 Uses **PNPM v10.11.0** as the package manager.
+
+---
+
+## ⚙️ Getting Started
+
+Install dependencies and start the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
+pnpm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 📦 Recommended VS Code Extensions
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- [Prettier – Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)  
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)  
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Deploying
 
-To learn more about Next.js, take a look at the following resources:
+Build and deploy your project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+pnpm build
+pnpm deploy
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📚 Included Libraries
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- 🔗 [Next.js 15.3.2](https://nextjs.org/docs/getting-started) – React framework for production  
+- 🎨 [HeroUI v2.7.8](https://www.heroui.com/docs/guide/introduction) – UI components for TailwindCSS  
+- 💨 [TailwindCSS v3.4.17](https://v3.tailwindcss.com/) – Utility-first CSS framework  
+- 🎥 [Framer Motion](https://www.framer.com/motion/) – Animation library for React  
+- 🌗 [next-themes](https://github.com/pacocoursey/next-themes) – Dark mode support  
+- 🧼 [Prettier](https://prettier.io/) – Code formatting  
+- 🔠 [react-icons](https://react-icons.github.io/react-icons/) – Popular icon sets in React  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for details.
